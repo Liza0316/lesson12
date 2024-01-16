@@ -3,8 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    &-list{
+    .header-list{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -16,18 +15,20 @@
     
      .material-symbols-outlined{
         font-size: 14px;
-        color: $header-color;
+        color: #212832;
      }
     
-     &-button{
+     .header-button{
     min-width: 102px;
     background: none;
     border-radius: 5px;
     border: 2px solid  #212832;
     padding: 9px 0;
      }
-     &-button:hover {
+     .header-button:hover {
             border: 3px dotted #DF6951;
             color: #DF6951;
      }
  }
+
+ 
